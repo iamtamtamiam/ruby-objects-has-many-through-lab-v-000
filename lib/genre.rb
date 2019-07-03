@@ -16,4 +16,7 @@ class Genre
     Song.new(song, artist, self)
   end 
   
+  def songs
+    Song.select 
+  end 
 end 
