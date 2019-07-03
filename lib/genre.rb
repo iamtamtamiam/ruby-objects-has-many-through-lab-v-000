@@ -12,4 +12,5 @@ class Genre
     @@all << self 
   end 
   
+  
 end 
