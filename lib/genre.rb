@@ -12,5 +12,5 @@ class Genre
     @@all << self 
   end 
   
-  
+  def Song.new 
 end 
