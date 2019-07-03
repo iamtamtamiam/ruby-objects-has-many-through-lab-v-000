@@ -12,5 +12,6 @@ class Genre
     @@all << self 
   end 
   
-  def 
+  def new_song(song, artist)
+    
 end 
