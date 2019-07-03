@@ -11,9 +11,11 @@ class Artist
   def initialize(name)
     @name = name 
     self.all << self
+  end 
   
   def new_song(song)
     @song = song
     song.artist = self 
   end 
+  
 end 
